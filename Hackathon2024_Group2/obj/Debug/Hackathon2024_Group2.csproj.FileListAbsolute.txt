@@ -8,3 +8,14 @@ C:\Users\0084t\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_G
 C:\Users\0084t\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.csproj.CoreCompileInputs.cache
 C:\Users\0084t\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.exe
 C:\Users\0084t\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.pdb
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\bin\Debug\Hackathon2024_Group2.exe.config
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\bin\Debug\Hackathon2024_Group2.exe
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\bin\Debug\Hackathon2024_Group2.pdb
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.csproj.AssemblyReference.cache
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.Form1.resources
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.Form2.resources
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.Properties.Resources.resources
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.csproj.GenerateResource.cache
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.csproj.CoreCompileInputs.cache
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.exe
+C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.pdb
