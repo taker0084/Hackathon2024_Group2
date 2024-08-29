@@ -19,4 +19,20 @@ namespace Hackathon2024_Group2
             Application.Run(new Form1());
         }
     }
+    class Birthday
+    {
+        public string Name { get; private set; }
+        public int Year { get; private set; }
+        public int Month { get; private set; }
+        public int Day { get; private set; }
+        public string Gift_last { get; private set; }
+        public Birthday(string name, int year, int month, int day, string gift_l)
+        {
+            Name = name;
+            Year = year;
+            Month = month;
+            Day = day;
+            Gift_last = gift_l;
+        }
+    }
 }
