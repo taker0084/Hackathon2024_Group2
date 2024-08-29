@@ -37,15 +37,18 @@ namespace Hackathon2024_Group2
                     birthday.Add(b);
                 }
             }
+            for (int i = 1; i <= 31; i++)
+            {
+                comboBox2.Items.Add(i.ToString());
+            }
         }
-
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
             LoadBirthDayData();
             var today = DateTime.Today;
-            int target_month = int.Parse(textBox1.Text);
-            int target_day = int.Parse(textBox2.Text);
+            int target_month = int.Parse(comboBox1.SelectedItem.ToString());
+            int target_day = int.Parse(comboBox2.SelectedItem.ToString());
             var target_Birthday = new DateTime(today.Year, target_month, target_day);
             for (int i = 0; i < birthday.Count; i++) {
                 var Birthday = new DateTime(today.Year, birthday[i].Month, birthday[i].Day);
