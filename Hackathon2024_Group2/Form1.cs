@@ -32,7 +32,8 @@ namespace Hackathon2024_Group2
                     int month = int.Parse(test[2]);
                     int day = int.Parse(test[3]);
                     string gift_l = (test[4]);
-                    Birthday b = new Birthday(name, year, month, day, gift_l);
+                    string calender = (test[5]);
+                    Birthday b = new Birthday(name, year, month, day, gift_l,calender);
                     birthday.Add(b);
                 }
             }
