@@ -37,11 +37,6 @@ namespace Hackathon2024_Group2
                     birthday.Add(b);
                 }
             }
-            for (int i = 1; i <= 31; i++)
-            {
-                comboBox2.Items.Clear();
-                comboBox2.Items.Add(i.ToString());
-            }
         }
         private void button1_Click(object sender, EventArgs e)
         {
@@ -75,6 +70,11 @@ namespace Hackathon2024_Group2
                     listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
                 }
                
+            }
+            comboBox2.Items.Clear();
+            for (int i = 1; i <= 31; i++)
+            {
+                comboBox2.Items.Add(i.ToString());
             }
         }
 
