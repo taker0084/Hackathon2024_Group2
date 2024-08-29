@@ -42,6 +42,8 @@ namespace Hackathon2024_Group2
         {
             listBox1.Items.Clear();
             LoadBirthDayData();
+            listBox1.Items.Add("直近で誕生日だった人");
+            var flag = true;
             var today = DateTime.Today;
             int target_month = int.Parse(comboBox1.SelectedItem.ToString());
             int target_day = int.Parse(comboBox2.SelectedItem.ToString());
@@ -50,10 +52,27 @@ namespace Hackathon2024_Group2
                 var Birthday = new DateTime(today.Year, birthday[i].Month, birthday[i].Day);
                 TimeSpan difference = target_Birthday-Birthday;
                 int daysDifference = difference.Days;
-                if (Math.Abs(daysDifference) <= 7)
+                if (daysDifference > 0 && daysDifference <= 7)
                 {
                     listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+
                 }
+                if (daysDifference == 0)
+                {
+                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+
+                }
+                if ((daysDifference) >= -7 && daysDifference < 0)
+                {
+                    if (flag)
+                    {
+                        listBox1.Items.Add("これからが誕生日の人！");
+                        flag = false;
+                    }
+                 
+                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                }
+
             }
         }
 
@@ -62,13 +81,29 @@ namespace Hackathon2024_Group2
             LoadBirthDayData();
             var today = DateTime.Today;
             label5.Text = today.ToString("MM/dd");
+            listBox1.Items.Add("直近で誕生日だった人");
+            var flag = true;
             for (int i = 0; i < birthday.Count; i++) {
                 var Birthday = new DateTime(today.Year, birthday[i].Month, birthday[i].Day);
                 TimeSpan difference = today - Birthday;
                 int daysDifference = difference.Days;
-                if (Math.Abs(daysDifference) <= 7) {
+                if (daysDifference > 0 && daysDifference <= 7)
+                {
+                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    
+                }
+                if (daysDifference == 0) {
+                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    
+                }
+                if ((daysDifference) >= -7 &&daysDifference<0) {
+                    if (flag) {
+                        listBox1.Items.Add("これからが誕生日の人！");
+                        flag= false;
+                    }
                     listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
                 }
+                
                
             }
             comboBox2.Items.Clear();
