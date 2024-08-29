@@ -106,9 +106,12 @@ namespace Hackathon2024_Group2
                 
                
             }
+            comboBox1.Items.Clear();
             comboBox2.Items.Clear();
+
             for (int i = 1; i <= 31; i++)
             {
+                if(i<=12) comboBox1.Items.Add(i.ToString());
                 comboBox2.Items.Add(i.ToString());
             }
         }
@@ -140,9 +143,6 @@ namespace Hackathon2024_Group2
             form.Show();
         }
 
-        //private void label4_Click(object sender, EventArgs e)
-        //{
-        //}
 
     }
     
