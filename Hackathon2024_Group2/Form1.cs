@@ -39,6 +39,7 @@ namespace Hackathon2024_Group2
             }
             for (int i = 1; i <= 31; i++)
             {
+                comboBox2.Items.Clear();
                 comboBox2.Items.Add(i.ToString());
             }
         }
