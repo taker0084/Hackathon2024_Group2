@@ -54,14 +54,15 @@ namespace Hackathon2024_Group2
                 var Birthday = new DateTime(today.Year, birthday[i].Month, birthday[i].Day);
                 TimeSpan difference = target_Birthday-Birthday;
                 int daysDifference = difference.Days;
+                string Input_Data = birthday[i].Name + "　" + birthday[i].Month.ToString() + "月　" + birthday[i].Day.ToString() + "日";
                 if (daysDifference > 0 && daysDifference <= 7)
                 {
-                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    listBox1.Items.Add(Input_Data);
 
                 }
                 if (daysDifference == 0)
                 {
-                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    listBox1.Items.Add(Input_Data);
 
                 }
                 if ((daysDifference) >= -7 && daysDifference < 0)
@@ -72,7 +73,7 @@ namespace Hackathon2024_Group2
                         flag = false;
                     }
                  
-                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    listBox1.Items.Add(Input_Data);
                 }
 
             }
@@ -89,13 +90,14 @@ namespace Hackathon2024_Group2
                 var Birthday = new DateTime(today.Year, birthday[i].Month, birthday[i].Day);
                 TimeSpan difference = today - Birthday;
                 int daysDifference = difference.Days;
+                string Input_Data = birthday[i].Name+"　" + birthday[i].Month.ToString()+ "月　" + birthday[i].Day.ToString()+ "日";
                 if (daysDifference > 0 && daysDifference <= 7)
                 {
-                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    listBox1.Items.Add(Input_Data);
                     
                 }
                 if (daysDifference == 0) {
-                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    listBox1.Items.Add(Input_Data);
                     
                 }
                 if ((daysDifference) >= -7 &&daysDifference<0) {
@@ -103,7 +105,7 @@ namespace Hackathon2024_Group2
                         listBox1.Items.Add("これからが誕生日の人！");
                         flag= false;
                     }
-                    listBox1.Items.Add(birthday[i].Name + "　" + birthday[i].Month + "月　" + birthday[i].Day + "日");
+                    listBox1.Items.Add(Input_Data);
                 }
                 
                
