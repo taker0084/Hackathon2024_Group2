@@ -54,7 +54,7 @@ namespace Hackathon2024_Group2
                 var Birthday = new DateTime(today.Year, birthday[i].Month, birthday[i].Day);
                 TimeSpan difference = target_Birthday-Birthday;
                 int daysDifference = difference.Days;
-                string Input_Data = birthday[i].Name.PadRight(10, ' ') + birthday[i].Month.ToString().PadLeft(6,' ') + "月" + birthday[i].ToString().PadLeft(6, ' ') + "日";
+                string Input_Data = birthday[i].Name + "　" + birthday[i].Month.ToString() + "月　" + birthday[i].Day.ToString() + "日";
                 if (daysDifference > 0 && daysDifference <= 7)
                 {
                     listBox1.Items.Add(Input_Data);
@@ -90,7 +90,7 @@ namespace Hackathon2024_Group2
                 var Birthday = new DateTime(today.Year, birthday[i].Month, birthday[i].Day);
                 TimeSpan difference = today - Birthday;
                 int daysDifference = difference.Days;
-                string Input_Data = birthday[i].Name.PadRight(14, ' ') + birthday[i].Month.ToString()+ "月" + birthday[i].Day.ToString()+ "日";
+                string Input_Data = birthday[i].Name+"　" + birthday[i].Month.ToString()+ "月　" + birthday[i].Day.ToString()+ "日";
                 if (daysDifference > 0 && daysDifference <= 7)
                 {
                     listBox1.Items.Add(Input_Data);
