@@ -23,7 +23,13 @@ namespace Hackathon2024_Group2
             get { return _Data; }
             set { _Data = value; }
         }
-        
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            label1.Text = _Data.Name;
+            string Birth = _Data.Month + "月" + _Data.Day+"日";
+            label2.Text = Birth;
+            label3.Text = _Data.Gift_last;
+        }
     }
 
 

@@ -38,8 +38,6 @@ namespace Hackathon2024_Group2
             }
         }
 
-        
-
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Items.Clear();
@@ -87,9 +85,19 @@ namespace Hackathon2024_Group2
         private string _LastGift;
         private void listBox1_MouseDoubleClick(object sender, MouseEventArgs e)
         {
-
+            string selectItem = listBox1.SelectedItem.ToString();
+            string[] separate = selectItem.Split('　');
+            Birthday select = new Birthday();
+            for(int i = 0; i < birthday.Count; i++)
+            {
+                if (birthday[i].Name == separate[0])
+                {
+                    select = birthday[i];
+                }
+            }
             Form2 form = new Form2();
-            form.Data = 
+            form.Data = select;
+            form.Show();
         }
 
         //private void label4_Click(object sender, EventArgs e)

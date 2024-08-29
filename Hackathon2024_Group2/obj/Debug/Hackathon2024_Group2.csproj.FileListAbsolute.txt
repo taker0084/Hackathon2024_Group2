@@ -19,3 +19,4 @@ C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_
 C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.csproj.CoreCompileInputs.cache
 C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.exe
 C:\Users\takeru\Source\Repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.pdb
+C:\Users\0084t\source\repos\inouelab-waseda\Hackathon2024_Group2\Hackathon2024_Group2\obj\Debug\Hackathon2024_Group2.Form2.resources
